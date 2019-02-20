@@ -1,0 +1,30 @@
+{
+    "name": "sevavietl/english-to-pig-latin",
+    "description": "Yalantis Golang School Test Task",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "phpstan/phpstan": "^0.11.2",
+        "php-coveralls/php-coveralls": "^2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sevavietl",
+            "email": "sevavietl@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sevavietl\\EnglishToPigLatin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sevavietl\\EnglishToPigLatin\\Test\\": "test/"
+        }
+    }
+}
